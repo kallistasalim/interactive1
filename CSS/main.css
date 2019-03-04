@@ -1,12 +1,47 @@
-
 * {
-    margin: 10px;
-    padding: 0px;
-  }
-  
-  /* begin styles */
-  
-  body {
-    background-color: lightgoldenrodyellow;
-    font-family: Arial, Helvetica, sans-serif
-  }
+  margin: 8px;
+  padding: 0px;
+}
+
+/* begin styles */
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: darkcyan;
+  background-image: url("../images/indigo_textured_rock_seamless_pattern.jpg");
+}
+
+.bg-img {
+  background-image: url("../images/indigo_textured_rock_seamless_pattern.jpg");
+  height: 500px;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#container {
+  padding: 40px;
+  line-height: 20px
+}
+
+img {
+  width: 25vw;
+  margin: auto;
+
+}
+
+a,
+a:visited {
+  color: gray
+}
+
+a:hover {
+  color: darkcyan;
+  transition-duration: 2s;
+
+}
