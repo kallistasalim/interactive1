@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    body {
+        background-color: lightblue;
+        position: relative;
+    }
+}
+
+#newbackground {
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    position: relative;
+    margin-top: 0px;
+
+}
+
+#planetsdiem {
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+}
+
+#introduction {
+    margin-left: 880px;
+    margin-top: -800px;
+    position: relative;
+}
+
+#oriwebsite {
+    margin-left: 1200px;
+    margin-top: 150px;
+    position: relative;
+}
+
+#reactions {
+    margin-left: 780px;
+    margin-top: 170px;
+    position: relative;
+}
+
+#bgstory {
+    margin-left: 220px;
+    margin-top: -600px;
+    position: relative;
+}
+
+#basketball {
+    margin-top: 700px;
+    margin-left: 730px;
+    position: relative;
+}
+
+body {
+    background-image: url("../images/bg2.png");
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 300%;
+    position: relative;
+}
+
+
+#blue {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: rgb(83, 239, 250);
+    position: relative;
+    text-align: left;
+
+}
+
+#websitess {
+    margin-top: 100px;
+    margin-left: 200px;
+    position: relative;
+}
+
+#yellow {
+    color: rgb(255, 255, 137);
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+#yimages {
+    margin-top: 100px;
+    margin-left: 250px;
+    position: relative;
+}
+
+#yellow2 {
+    color: rgb(255, 255, 137);
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+#yellow3 {
+    color: rgb(255, 255, 137);
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+img.animated-gif {
+    width: 300px;
+    position: relative;
+    margin-left: 250px;
+    height: auto;
+}
+
+#games {
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+#games1 {
+    position: relative;
+    margin-left: 480px;
+    margin-top: -45px;
+}
+
+#jamcentral {
+    position: relative;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+#lunartunes {
+    position: relative;
+    margin-left: 470px;
+    margin-top: -150px;
+}
+
+#planetbball {
+    position: relative;
+    margin-left: 380px;
+    margin-top: -30px;
+}
+
+#pink {
+    color: rgb(248, 136, 224);
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+#pimage {
+    margin-top: 80px;
+    margin-left: 250px;
+    position: relative;
+}
+
+#pink1 {
+    color: rgb(248, 136, 224);
+    margin-top: -250px;
+    margin-left: 830px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+#pink2 {
+    color: rgb(248, 136, 224);
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+    text-align: left;
+}
+
+#pink3 {
+    color: rgb(248, 136, 224);
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 700px;
+    position: relative;
+    text-align: left;
+}
+
+#pinkgif {
+    margin-top: 80px;
+    margin-left: 250px;
+    position: relative;
+}
+
+#purple {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: rgb(195, 182, 255);
+    position: relative;
+    text-align: left;
+}
+
+.resize {
+    width: 1170px;
+    height: auto;
+}
+
+#puimage {
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+}
+
+#puimage1 {
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+}
+
+#navbar {
+    overflow: hidden;
+
+    width: 10%;
+    float: right;
+    position: sticky;
+    top: 30px;
+    z-index: 1;
+}
+
+#navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.group {
+    width: 200px;
+}
+
+.hovertext {
+    opacity: 0;
+    position: relative;
+    top: -100px;
+    left: -100px;
+    font-size: 0.8em;
+}
+
+.group:hover>.planet {
+    opacity: 0;
+}
+
+.group:hover>.hovertext {
+    opacity: 1;
+}
+
+.group#introduction:hover>.hovertext {
+    color: rgb(83, 239, 250);
+    margin-left: 30px;
+}
+
+.group#oriwebsite:hover>.hovertext {
+    color: rgb(255, 255, 137);
+    margin-left: 120px;
+    margin-top: -50px;
+}
+
+.group#reactions:hover>.hovertext {
+    color: rgb(248, 136, 224);
+    margin-left: 80px;
+}
+
+.group#bgstory:hover>.hovertext {
+    color: rgb(195, 182, 255);
+    margin-left: 80px;
+    margin-top: -20px;
+    padding-bottom: 100px;
+}
