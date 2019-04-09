@@ -1,0 +1,79 @@
+body {
+    background-color: whitesmoke;
+    color: #252525;
+    margin: 25px;
+    padding: 25px;
+}
+
+h1,
+h2 {
+    font-family: fira-sans, sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+}
+
+
+li {
+    font-family: fira-sans, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    max-width: 650px;
+}
+
+
+p {
+    font-family: fira-sans, sans-serif;
+
+    font-weight: 200;
+
+    font-style: normal;
+
+    text-align: justify;
+
+    max-width: 650px;
+}
+
+
+.interview {
+    max-width: 650px;
+}
+
+#toc {
+
+    font-family: fira-sans, sans-serif;
+
+    font-weight: 200;
+
+    font-style: normal;
+}
+
+img {
+    max-width: 40%;
+    float: right;
+    padding: 25px;
+}
+
+#question {
+    font-family: fira-sans, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+a:link {
+    color: #252525;
+}
+
+a:visited {
+    color: #252525;
+}
+
+a:hover {
+    color: #c51e1e;
+}
